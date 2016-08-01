@@ -1236,3 +1236,17 @@ section#categories-2 {
 section#meta-2 {
 	display: none;
 }
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #section-printable, #section-printable * {
+    visibility: visible;
+  }
+  #section-printable {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

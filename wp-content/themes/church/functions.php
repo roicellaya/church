@@ -329,6 +329,10 @@ function MetaBoxesComunion( $meta_boxes ) {
         'rows'        => 1,
         'cols'        => 5,
       ),
+      array('name' => 'devider',
+        'id' => $prefix.'',
+        'type' => 'divider',
+      ),
       array(
         'id'          => 'padre',
         'desc'        => __( 'Nombre completo del padre', 'your-prefix' ),
