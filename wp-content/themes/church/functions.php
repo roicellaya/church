@@ -48,7 +48,7 @@ function PostTypeActaMatrimonio() {
         'publicly_queryable'    => true,
         'capability_type'       => 'post',
     );
-    register_post_type( 'post_actaMatrimonio', $args );
+    register_post_type( 'post_actamatrimonio', $args );
 }
 add_action( 'init', 'PostTypeActaMatrimonio', 0 );
 
@@ -58,7 +58,7 @@ function MetaBoxesMatrimonio( $meta_boxes ) {
   $prefix = 'church_';
   $meta_boxes[] = array(
     'title'      => __( 'Campos'),
-    'post_types' => 'post_actaMatrimonio',
+    'post_types' => 'post_actamatrimonio',
     'fields'     => array(
       array(
         'id'          => 'esposo',
@@ -174,7 +174,7 @@ function PostTypeActaBautizo() {
         'publicly_queryable'    => true,
         'capability_type'       => 'post',
     );
-    register_post_type( 'post_actaBautizo', $args );
+    register_post_type( 'post_actabautizo', $args );
 }
 add_action( 'init', 'PostTypeActaBautizo', 0 );
 
@@ -184,7 +184,7 @@ function MetaBoxesBautizo( $meta_boxes ) {
   $prefix = 'church_';
   $meta_boxes[] = array(
     'title'      => __( 'Campos'),
-    'post_types' => 'post_actaBautizo',
+    'post_types' => 'post_actabautizo',
     'fields'     => array(
 	  array(
         'id'          => 'titular',
@@ -308,7 +308,7 @@ function PostTypeActaComunion() {
         'publicly_queryable'    => true,
         'capability_type'       => 'post',
     );
-    register_post_type( 'post_actaComunion', $args );
+    register_post_type( 'post_actacomunion', $args );
 }
 add_action( 'init', 'PostTypeActaComunion', 0 );
 
@@ -318,7 +318,7 @@ function MetaBoxesComunion( $meta_boxes ) {
   $prefix = 'church_';
   $meta_boxes[] = array(
     'title'      => __( 'Campos'),
-    'post_types' => 'post_actaComunion',
+    'post_types' => 'post_actacomunion',
     'fields'     => array(
 	  array(
         'id'          => 'titular',
@@ -442,7 +442,7 @@ function PostTypeActaConfirmacion() {
         'publicly_queryable'    => true,
         'capability_type'       => 'post',
     );
-    register_post_type( 'post_actaConfirmacion', $args );
+    register_post_type( 'post_actaconfirmacion', $args );
 }
 add_action( 'init', 'PostTypeActaConfirmacion', 0 );
 
@@ -452,7 +452,7 @@ function MetaBoxesConfirmacion( $meta_boxes ) {
   $prefix = 'church_';
   $meta_boxes[] = array(
     'title'      => __( 'Campos'),
-    'post_types' => 'post_actaConfirmacion',
+    'post_types' => 'post_actaconfirmacion',
     'fields'     => array(
 	  array(
         'id'          => 'titular',
