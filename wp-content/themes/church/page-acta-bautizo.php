@@ -19,7 +19,7 @@
 </div>
 
 <div class="col-xs-12" id="trv-feat-cont">
-	<div class="container text-center features-container trv-text-prg">
+	<div class="container">
 		<?php
 			$args = array( 'post_type' => 'post_actaBautizo', 'post_status' => 'publish', 'orderby' => 'ID', 'order' => 'ASC', 'posts_per_page' => '-1');
 
@@ -29,15 +29,15 @@
 				$title = get_the_title($post->ID);
 				$permalink = get_permalink($post->ID);
 
-				echo '<section class="feature-container" id="'.$post->ID.'">';
+				echo '<div class="col-xs-12" id="'.$post->ID.'">';
 
-              	echo '<div class="text-center features-title">';
+              	echo '<div class="features-title">';
               	echo '<a href="' . $permalink . '">';
               	echo  '<span>' . $title . '</span>';
               	echo  '</a>';
               	echo '</div>';
 
-				echo '</section>';
+				echo '</div>';
 				echo '<br />';
 			endwhile;
 		?>
