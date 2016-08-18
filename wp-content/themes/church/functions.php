@@ -102,11 +102,9 @@ function MetaBoxesMatrimonio( $meta_boxes ) {
       array(
         'id'          => 'cedula_esposo',
         'desc'        => __( 'Cédula de identidad del esposo', 'your-prefix' ),
-        'type'        => 'textarea',
+        'type'        => 'number',
         'clone'       => false,
         'placeholder' => __( 'Ingresar la cédula de identidad del esposo', 'your-prefix' ),
-        'rows'        => 1,
-        'cols'        => 5,
       ),
       array('name' => 'devider',
 	    'id' => $prefix.'',
@@ -115,11 +113,9 @@ function MetaBoxesMatrimonio( $meta_boxes ) {
       array(
         'id'          => 'cedula_esposa',
         'desc'        => __( 'Cédula de identidad de la esposa', 'your-prefix' ),
-        'type'        => 'textarea',
+        'type'        => 'number',
         'clone'       => false,
         'placeholder' => __( 'Ingresar la cédula de identidad de la esposa', 'your-prefix' ),
-        'rows'        => 1,
-        'cols'        => 5,
       ),
     ),
   );
@@ -237,11 +233,9 @@ function MetaBoxesBautizo( $meta_boxes ) {
       array(
         'id'          => 'cedula_padre',
         'desc'        => __( 'Cédula de identidad del padre', 'your-prefix' ),
-        'type'        => 'textarea',
+        'type'        => 'number',
         'clone'       => false,
         'placeholder' => __( 'Ingresar la cédula de identidad del padre', 'your-prefix' ),
-        'rows'        => 1,
-        'cols'        => 5,
       ),
       array('name' => 'devider',
 	    'id' => $prefix.'',
@@ -250,11 +244,9 @@ function MetaBoxesBautizo( $meta_boxes ) {
       array(
         'id'          => 'cedula_madre',
         'desc'        => __( 'Cédula de identidad de la madre', 'your-prefix' ),
-        'type'        => 'textarea',
+        'type'        => 'number',
         'clone'       => false,
         'placeholder' => __( 'Ingresar la cédula de identidad de la madre', 'your-prefix' ),
-        'rows'        => 1,
-        'cols'        => 5,
       ),
     ),
   );
@@ -375,11 +367,9 @@ function MetaBoxesComunion( $meta_boxes ) {
       array(
         'id'          => 'cedula_padre',
         'desc'        => __( 'Cédula de identidad del padre', 'your-prefix' ),
-        'type'        => 'textarea',
+        'type'        => 'number',
         'clone'       => false,
         'placeholder' => __( 'Ingresar la cédula de identidad del padre', 'your-prefix' ),
-        'rows'        => 1,
-        'cols'        => 5,
       ),
       array('name' => 'devider',
 	    'id' => $prefix.'',
@@ -388,11 +378,9 @@ function MetaBoxesComunion( $meta_boxes ) {
       array(
         'id'          => 'cedula_madre',
         'desc'        => __( 'Cédula de identidad de la madre', 'your-prefix' ),
-        'type'        => 'textarea',
+        'type'        => 'number',
         'clone'       => false,
         'placeholder' => __( 'Ingresar la cédula de identidad de la madre', 'your-prefix' ),
-        'rows'        => 1,
-        'cols'        => 5,
       ),
     ),
   );
@@ -509,11 +497,9 @@ function MetaBoxesConfirmacion( $meta_boxes ) {
       array(
         'id'          => 'cedula_padre',
         'desc'        => __( 'Cédula de identidad del padre', 'your-prefix' ),
-        'type'        => 'textarea',
+        'type'        => 'number',
         'clone'       => false,
         'placeholder' => __( 'Ingresar la cédula de identidad del padre', 'your-prefix' ),
-        'rows'        => 1,
-        'cols'        => 5,
       ),
       array('name' => 'devider',
 	    'id' => $prefix.'',
@@ -522,11 +508,9 @@ function MetaBoxesConfirmacion( $meta_boxes ) {
       array(
         'id'          => 'cedula_madre',
         'desc'        => __( 'Cédula de identidad de la madre', 'your-prefix' ),
-        'type'        => 'textarea',
+        'type'        => 'number',
         'clone'       => false,
         'placeholder' => __( 'Ingresar la cédula de identidad de la madre', 'your-prefix' ),
-        'rows'        => 1,
-        'cols'        => 5,
       ),
     ),
   );

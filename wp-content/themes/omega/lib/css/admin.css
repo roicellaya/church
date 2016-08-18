@@ -127,3 +127,7 @@ hr.div {
 		padding: 60px 20px 0;
 	}
 }
+
+#wp-content-editor-tools, #wp-content-editor-container, #post-status-info {
+	display: none;
+}
